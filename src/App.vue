@@ -10,11 +10,11 @@
         
         <!-- Именная вставка -->
         <div v-if="guestName" class="mb-4 bg-black/30 backdrop-blur-md p-3 rounded-2xl border border-white/10 shadow-xl w-full">
-          <p class="text-sm font-sans tracking-[0.2em] uppercase text-[#f4e9dc]/80 mb-1">Дорогой(ая)</p>
+          <p class="text-sm font-sans font-semibold italic tracking-[0.2em] uppercase text-[#f4e9dc]/80 mb-1">Дорогой гость,</p>
           <p class="font-cursive text-5xl text-white drop-shadow-md">{{ guestName }}</p>
         </div>
         <div v-else class="mb-4 bg-black/30 backdrop-blur-md p-3 rounded-2xl border border-white/10 shadow-xl w-full">
-          <p class="text-sm font-sans tracking-[0.2em] uppercase text-[#f4e9dc]/80">Дорогие гости</p>
+          <p class="text-sm font-sans font-semibold italic tracking-[0.2em] uppercase text-[#f4e9dc]/80">Дорогие гости</p>
         </div>
 
         <!-- Картинка с надписью "Приглашение на свадьбу" -->
