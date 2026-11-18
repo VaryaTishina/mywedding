@@ -23,8 +23,10 @@ jobs:
         with:
           node-version: '20'
           #cache: 'npm'
+      - name: Clean npm cache
+        run: npm cache clean --force
       - name: Install dependencies
-        run: npm install
+        run: npm install --force --no-package-lock
       - name: Build
         run: npm run build
       - name: Setup Pages
