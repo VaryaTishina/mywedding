@@ -128,16 +128,16 @@
     >
   </div>
 
-  <p class="text-base font-sans mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
+  <p class="text-base font-sans font-semibold italic mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
     Исключить образы состоящие полностью из белого<br>(и всех близких к нему оттенков) и черного цветов,<br>а также минимизировать их количество
   </p>
   
-  <p class="text-base font-sans mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
+  <p class="text-base font-sans font-semibold italic mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
     Для девушек:<br>просьба взять с собой платок для <br>покрытия головы и плеч в соборе;<br>отдать предпочтение нарядам, закрывающим колени;<br>в случае выбора короткого наряда<br>просьба взять второй платок,<br>чтобы повязать его на пояс
   </p>
   
-  <p class="text-base font-sans mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
-    Для мужчин:<br>отдать предпочтение классическому стилю;<br>допускается выбор костюма черного,<br>синего, серого и других цветов,<br>отличных от цветовой палитры,<br>в таком случае, просьба выбрать<br>рубашку в соответствии с<br>цветовой палитрой
+  <p class="text-base font-sans font-semibold italic mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
+    Для мужчин:<br>отдать предпочтение классическому стилю;<br>допускается выбор костюма<br>черного, синего, серого<br>и других цветов,<br>отличных от цветовой палитры,<br>в таком случае, просьба выбрать<br>рубашку в соответствии с<br>цветовой палитрой
   </p>
 </div>
       </section>
