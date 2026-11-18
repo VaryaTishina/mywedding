@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === НАСТРОЙКИ КАРТИНКИ КОНВЕРТА === */
+.envelope-blend {
+  /* Делаем белый фон прозрачным, чтобы картинка слилась с фоном */
+  mix-blend-mode: multiply;
+  
+  /* Создаем плавные края, чтобы картинка не обрывалась резко */
+  -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+}
+
+/* === НАСТРОЙКИ КАРТИНКИ ЗАГОЛОВКА === */
+.title-blend {
+  /* Убираем белый фон картинки */
+  mix-blend-mode: multiply;
+  
+  /* Если нужно сделать надпись чуть ярче/контрастнее, 
+     можно добавить легкий фильтр (по желанию): */
+  /* filter: brightness(1.2); */
+}
