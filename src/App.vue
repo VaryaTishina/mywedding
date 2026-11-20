@@ -10,7 +10,7 @@
         
         <!-- Именная вставка -->
         <div v-if="guestName" class="mb-4 w-full flex justify-center">
-          <p class="font-corsiva text-4xl text-[#f4e9dc] drop-shadow-md text-center">{{ guestName }}</p>
+          <p class="font-corsiva text-3xl text-[#f4e9dc] drop-shadow-md text-center">{{ guestName }}</p>
         </div>
         <div v-else class="mb-4 w-full flex justify-center">
           <p class="text-sm font-sans font-semibold italic tracking-[0.2em] uppercase text-[#f4e9dc]/80">Дорогие гости</p>
