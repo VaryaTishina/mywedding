@@ -10,8 +10,7 @@
         
         <!-- Именная вставка -->
         <div v-if="guestName" class="mb-4 bg-black/30 backdrop-blur-md p-3 rounded-2xl border border-white/10 shadow-xl w-full">
-          <p class="text-sm font-sans font-semibold italic tracking-[0.2em] uppercase text-[#f4e9dc]/80 mb-1">Дорогой гость,</p>
-          <p class="font-cursive text-5xl text-white drop-shadow-md">{{ guestName }}</p>
+          <p class="font-cursive italic text-5xl text-[#f4e9dc] drop-shadow-md">{{ guestName }}</p>
         </div>
         <div v-else class="mb-4 bg-black/30 backdrop-blur-md p-3 rounded-2xl border border-white/10 shadow-xl w-full">
           <p class="text-sm font-sans font-semibold italic tracking-[0.2em] uppercase text-[#f4e9dc]/80">Дорогие гости</p>
@@ -115,7 +114,7 @@
     >
   </div>
 
-  <p class="text-base font-sans font-semibold italic mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
+  <p class="text-cursive font-sans font-semibold italic mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
     Будем благодарны, если Вы придете в нарядах, соответствующих<br>стилю нашей свадьбы:
   </p>
   
@@ -128,15 +127,15 @@
     >
   </div>
 
-  <p class="text-base font-sans font-semibold italic mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
+  <p class="text-cursive font-sans font-semibold italic mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
     Исключить образы состоящие полностью из белого<br>(и всех близких к нему оттенков) и черного цветов,<br>а также минимизировать их количество
   </p>
   
-  <p class="text-base font-sans font-semibold italic mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
+  <p class="text-cursive font-sans font-semibold italic mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
     Для девушек:<br>просьба взять с собой платок для <br>покрытия головы и плеч в соборе;<br>отдать предпочтение нарядам, закрывающим колени;<br>в случае выбора короткого наряда<br>просьба взять второй платок,<br>чтобы повязать его на пояс
   </p>
   
-  <p class="text-base font-sans font-semibold italic mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
+  <p class="text-cursive font-sans font-semibold italic mb-6 px-4 text-[#f4e9dc]/70 leading-relaxed text-center">
     Для мужчин:<br>отдать предпочтение классическому стилю;<br>допускается выбор костюма<br>черного, синего, серого<br>и других цветов,<br>отличных от цветовой палитры,<br>в таком случае, просьба выбрать<br>рубашку в соответствии с<br>цветовой палитрой
   </p>
 </div>
@@ -151,7 +150,7 @@
       <section class="w-full flex flex-col items-center py-12 px-6 pb-20 text-center">
         
         <div class="bg-black/40 backdrop-blur-lg border border-white/10 rounded-3xl p-6 w-full shadow-2xl">
-          <p class="text-sm font-sans leading-relaxed mb-8 opacity-90 max-w-sm mx-auto text-white">
+          <p class="text-sm font-sans leading-relaxed mb-8 opacity-90 max-w-sm mx-auto text-[#f4e9dc]">
             Пожалуйста, заполните форму ниже. Это поможет нам в организации торжества.
           </p>
 
@@ -166,11 +165,11 @@
   <div class="flex flex-col gap-3">
     <label class="flex items-center gap-3 cursor-pointer group">
       <input v-model="form.attendance" type="radio" value="Да, с удовольствием буду" class="w-4 h-4 accent-[#f4e9dc]">
-      <span class="text-sm group-hover:text-white transition-colors text-white/90">Да, с удовольствием буду</span>
+      <span class="text-sm group-hover:text-[#f4e9dc] transition-colors text-[#f4e9dc]/90">Да, с удовольствием буду</span>
     </label>
     <label class="flex items-center gap-3 cursor-pointer group">
       <input v-model="form.attendance" type="radio" value="К сожалению не смогу" class="w-4 h-4 accent-[#f4e9dc]">
-      <span class="text-sm group-hover:text-white transition-colors text-white/90">К сожалению не смогу</span>
+      <span class="text-sm group-hover:text-[#f4e9dc] transition-colors text-[#f4e9dc]/90">К сожалению не смогу</span>
     </label>
   </div>
 </div>
@@ -187,7 +186,7 @@
         name="drink"
         class="w-4 h-4 accent-[#f4e9dc]"
       >
-      <span class="text-sm group-hover:text-white transition-colors text-white/90">{{ drink }}</span>
+      <span class="text-sm group-hover:text-white transition-colors text-[#f4e9dc]/90">{{ drink }}</span>
     </label>
   </div>
 </div>
