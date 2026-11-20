@@ -9,8 +9,8 @@
       <section class="w-full flex flex-col items-center pt-10 pb-2 px-6 text-center">
         
         <!-- Именная вставка -->
-        <div v-if="guestName" class="mb-4 bg-black/30 backdrop-blur-md p-3 rounded-2xl border border-white/10 shadow-xl w-full">
-          <p class="font-cursive italic text-5xl text-[#f4e9dc] drop-shadow-md">{{ guestName }}</p>
+        <div v-if="guestName" class="mb-4 w-full flex justify-center">
+          <p class="font-corsiva text-4xl text-[#f4e9dc] drop-shadow-md text-center">{{ guestName }}</p>
         </div>
         <div v-else class="mb-4 bg-black/30 backdrop-blur-md p-3 rounded-2xl border border-white/10 shadow-xl w-full">
           <p class="text-sm font-sans font-semibold italic tracking-[0.2em] uppercase text-[#f4e9dc]/80">Дорогие гости</p>

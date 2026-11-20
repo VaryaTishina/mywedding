@@ -21,3 +21,15 @@
      можно добавить легкий фильтр (по желанию): */
   /* filter: brightness(1.2); */
 }
+/* Подключаем красивый рукописный шрифт с поддержкой кириллицы */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Marck+Script&display=swap');
+
+/* Класс для имени гостя */
+.font-corsiva {
+  /* 1. Пытаемся взять Monotype Corsiva (если есть на ПК) */
+  /* 2. Если нет — берем Apple Chancery (на Mac) */
+  /* 3. На телефонах (Android/iOS) сработает Great Vibes */
+  font-family: "Monotype Corsiva", "Apple Chancery", "Great Vibes", cursive;
+  font-style: italic;
+  line-height: 1.2;
+}
